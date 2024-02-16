@@ -1,4 +1,0 @@
-0 * * * * aplay /home/yourhome/morse_wav/intro.wav && hour=$(date +\%H) && aplay /home/yourhome/morse_wav/${hour}.wav
-
-
-This cron job will play the `intro.wav` file at the beginning of each hour, followed by playing the corresponding `${hour}.wav` file based on the current hour.

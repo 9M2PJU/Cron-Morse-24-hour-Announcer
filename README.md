@@ -8,8 +8,8 @@ https://github.com/9M2PJU/Cron-Morse-24-hour-Announcer/assets/991353/f30c70d4-7e
 
 
 1. download/clone to your home dir
-2. apt install mpg123
-3. crontab -e and add @hourly mpg123 /path/to/morse/intro.mp3 && hour=$(date "+%H") && mpg123 /path/to/morse/morse_mp3/${hour}.mp3
-
+2. get into folder and chmod a+x morse.sh
+3. install mpg123
+4. crontab -e and add @hourly /path/to/file/morse.sh
 
 

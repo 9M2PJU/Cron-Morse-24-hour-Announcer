@@ -19,7 +19,7 @@ This project sets up a Docker container that runs a cron job every hour to play 
 
 ### 1. Clone the Repository
 
-```bash
+
 git clone https://github.com/yourusername/hourly_morse_announce_docker.git
 cd hourly_morse_announce_docker
 2. Set Up the Environment

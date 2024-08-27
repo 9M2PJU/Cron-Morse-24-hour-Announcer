@@ -6,7 +6,7 @@ Got it! Here's the updated `README.md` with the correct GitHub repository name:
 
 # Hourly Morse Announce Docker
 
-This project sets up a Docker container that runs a cron job every hour to play Morse code audio files using ALSA. The container is based on Alpine Linux and includes PulseAudio support for audio playback.
+This project sets up a Docker container that runs a cron job every hour to play Morse code audio files using ALSA. The container is based on Alpine Linux.
 
 ## Features
 

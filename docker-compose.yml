@@ -1,0 +1,15 @@
+
+services:
+  morse-cron:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: morse_cron
+    devices:
+      - "/dev/snd:/dev/snd"
+    environment:
+      - PULSE_SERVER=host.docker.internal
+    volumes:
+      - ./morse:/app/morse
+    restart: unless-stopped
+

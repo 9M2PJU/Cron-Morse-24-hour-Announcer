@@ -1,6 +1,6 @@
 https://github.com/9M2PJU/Cron-Morse-24-hour-Announcer/assets/991353/f30c70d4-7e00-4d8f-929b-603c0cf3134a
 
-Certainly! Here's the `README.md` content in plain text format:
+Got it! Here's the updated `README.md` with the correct GitHub repository name:
 
 ---
 
@@ -26,8 +26,8 @@ Before you begin, ensure you have the following installed:
 1. **Clone the Repository**
 
    ```
-   git clone https://github.com/yourusername/hourly_morse_announce_docker.git
-   cd hourly_morse_announce_docker
+   git clone https://github.com/9M2PJU/Cron-Morse-24-hour-Announcer.git
+   cd Cron-Morse-24-hour-Announcer
    ```
 
 2. **Set Up the Environment**
@@ -90,10 +90,4 @@ Contributions are welcome! Please open issues or submit pull requests if you hav
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-For any questions or issues, please contact your-email@example.com.
-
----
-
-This plain text version omits markdown formatting while maintaining clarity and organization.
 

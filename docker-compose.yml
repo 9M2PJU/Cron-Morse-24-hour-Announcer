@@ -1,0 +1,16 @@
+services:
+  morse-cron:
+    image: morse_cron
+    container_name: morse_cron_container
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /dev/snd:/dev/snd  # Map the ALSA sound devices
+    environment:
+      - TZ=Asia/Kuala_Lumpur
+    command: /start-cron.sh
+    devices:
+      - "/dev/snd:/dev/snd"  # Explicit device mapping
+

@@ -2,12 +2,12 @@ https://github.com/9M2PJU/Cron-Morse-24-hour-Announcer/assets/991353/f30c70d4-7e
 
 # Cron Morse 24 hour Announcer Docker
 
-This project sets up a Docker container that runs a cron job every hour to play Morse code audio files using ALSA. The container is based on Alpine Linux.
+This project sets up a Docker container that runs a cron job every hour to play Morse code audio files using mpg123 and ALSA. The container is based on Alpine Linux.
 
 ## Features
 
 - Runs a cron job every hour to execute a Morse code script.
-- Uses ALSA for audio playback within the Docker container.
+- Uses mpg123 and ALSA for audio playback within the Docker container.
 - Configurable time zone and audio device mappings.
 
 ## Prerequisites
@@ -46,15 +46,7 @@ Before you begin, ensure you have the following installed:
    docker compose up -d
    ```
 
-5. **Check Logs**
-
-   To view the logs from the container:
-
-   ```
-   docker compose logs morse-cron
-   ```
-
-6. **Access the Container**
+5. **Access the Container**
 
    To enter the container and inspect or debug:
 

@@ -75,7 +75,5 @@ If you encounter issues:
 
 Contributions are welcome! Please open issues or submit pull requests if you have suggestions or improvements.
 
-## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
 
